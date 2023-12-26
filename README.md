@@ -4,7 +4,7 @@ Please read the following instructions and run the following in this order.
 
 I am using Python 3.11.5
 
-requirements.txt - Contains all the external libraries I used for this project, that you need to install in order to run the following files. I used:
+**requirements.txt** - Contains all the external libraries I used for this project, that you need to install in order to run the following files. I used:
 
 matplotlib==3.8.1
 nba_api==1.4.1
@@ -16,9 +16,12 @@ Note I use nba_api which requires Python 3.7+ along with the requests and numpy 
 
 To install requirements, run:
     pip install -r requirements.txt
-Folders:
 
-data - contains 2 subfolders raw and processed each with one jupyter notebook and 2 data files
+**Fortich DSCI 510 Final Project Report.pdf** - Contains my research question, analysis, and reults in full.
+    
+**Folders:**
+
+**data** - contains 2 subfolders raw and processed each with one jupyter notebook and 2 data files
 
 data/raw - contains raw data and 1 jupyter notebook
 
@@ -36,9 +39,7 @@ processed data a. clean_lakers_games.csv - cleaned up data from 'lakergames2022.
 
 processed data b. clean_lakers_stats.csv - cleaned up data from 'lakers_2022_stats.csv'
 
-src - contains jupyter notebook for analysis and visualization
+**analysis and visuals** - contains jupyter notebook for analysis and visualization
 
 File a. run_analysis_and_visualize_results.ipynb - This is a jupyter notebook that reads the 2 processed csv files and opens them as 2 pandas dataframes and also merges them. This file uses the pandas, numpy, seaborn, and matplotlib.pyplot libraries. Since the data we want to read is in the data/processed folder, the path to read the csv files is '../data/processed/clean_lakers_stats.csv' and '../data/processed/clean_lakers_games.csv'. This is where the data will be analyzed and visualized. Run this file using 'Run All'.
 results
-
-File a. Fortich DSCI 510 Final Project Report.pdf - Contains my research question, analysis, and reults in full.
