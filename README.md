@@ -48,4 +48,4 @@ analysis and visuals - contains jupyter notebook for analysis and visualization
 File a. run_analysis_and_visualize_results.ipynb - This is a jupyter notebook that reads the 2 processed csv files and opens them as 2 pandas dataframes and also merges them. This file uses the pandas, numpy, seaborn, and matplotlib.pyplot libraries. Since the data we want to read is in the data/processed folder, the path to read the csv files is '../data/processed/clean_lakers_stats.csv' and '../data/processed/clean_lakers_games.csv'. This is where the data will be analyzed and visualized. Run this file using 'Run All'.
 results
 
-**Fortich DSCI 510 Final Project Report.pdf** - Contains my research question, analysis, and reults in full.
+**Fortich DSCI 510 Final Project Report.pdf** - Contains my research question, analysis, and results in full.
