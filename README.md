@@ -1,3 +1,5 @@
+USC DSCI 510
+
 Welcome to my Final Project!
 
 Please read the following instructions and run the following in this order.
